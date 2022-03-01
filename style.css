@@ -1,1 +1,196 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    font-family: "Source Sans Pro";
+    background-color: #eee;
+    /* padding: 20em; */
+  }
+  
+  h1 /*header*/ {
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  h1,
+  h5 {
+    font-family: "Abril Fatface";
+    padding: 0;
+    margin-top: 0;
+  }
+  
+  .date {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+  
+  h2, h4 /*Article*/ {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+  }
+  
+  h5 {
+    color: #dd3232;
+    font-size: 1em;
+  }
+  
+  .newspaper-container {
+    background-color: white;
+    box-shadow: 2px 2px 4px #ddd;
+    border-radius: 25px;
+    width: 700px;
+    height: 1750px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  nav {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #eee;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  
+  ul {
+    padding: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 0.25em;
+    list-style: none;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #777;
+  }
+  
+  .more-articles {
+    width: 90;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    border: 2px solid #eee;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+  }
+  
+  .more-articles .row-1 {
+    grid-column-start: auto;
+    grid-row-start: 1;
+    grid-column: span 3;
+  }
+  
+  .more-articles .row-2 {
+    grid-column-start: auto;
+    grid-row-start: 2;
+    grid-column: span 2;
+  }
+  
+  .more-articles section {
+    margin: auto;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 25px);
+    gap: 0;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 3px double #eee;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  footer h4 {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    font-size: 0.8em;
+    inline-size: 110%;
+  }
+  
+  .news {
+    grid-column: 1 / 2;
+    grid-row: span 4;
+    inline-size: 145%;
+  }
+  
+  .opinion {
+    grid-column: 3 / 4;
+    grid-row: span 4;
+    inline-size: 145%;
+  }
+  
+  .arts {
+    grid-column: 5 / 6;
+    grid-row: span 4;
+    inline-size: 145%;
+  }
+  
+  .living {
+    grid-column: 7 / 8;
+    grid-row: span 4;
+    inline-size: 110%;
+  }
+  
+  .more {
+    grid-column: 9 / 10;
+    grid-row: span 8;
+    inline-size: 90%;
+  }
+  .subscribe {
+    grid-column: 11 / 12;
+    grid-row: span 5;
+    border: 3px double #eee;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    inline-size: 150%;
+  }
+  .footer-links,
+  .language {
+    font-size: 0.9em;
+    grid-column: 11 / 12;
+    grid-row: 13;
+    grid-row: span 4;
+    padding: 5%;
+    border: 3px double #eee;
+    /* border-left: transparent; */
+    border-right: transparent;
+    border-bottom: transparent;
+    inline-size: 130%;
+  }
+  
+  .footer-list ul,
+  .language ul {
+  }
