@@ -3,40 +3,38 @@
 body {
     font-family: "Source Sans Pro";
     background-color: #eee;
-    /* padding: 20em; */
   }
   
-  h1 /*header*/ {
+  h1{
     text-align: center;
     font-size: 3em;
   }
   
-  h1,
-  h5 {
+  h1, h5{
     font-family: "Abril Fatface";
     padding: 0;
     margin-top: 0;
   }
   
-  .date {
+  .date{
     text-align: left;
     margin-bottom: 1em;
   }
   
-  h2, h4 /*Article*/ {
+  h2, h4{
     font-family: "Roboto Slab", serif;
   }
   
-  h4 {
+  h4{
     font-size: 1.2em;
   }
   
-  h5 {
+  h5{
     color: #dd3232;
     font-size: 1em;
   }
   
-  .newspaper-container {
+  .newspaper-container{
     background-color: white;
     box-shadow: 2px 2px 4px #ddd;
     border-radius: 25px;
@@ -46,7 +44,7 @@ body {
     margin: auto;
   }
   
-  nav {
+  nav{
     position: sticky;
     background-color: white;
     top: 0;
@@ -58,25 +56,25 @@ body {
     border-right: transparent;
   }
   
-  ul {
+  ul{
     padding: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin: 0;
   }
   
-  li {
+  li{
     display: inline;
     margin: 0 0.25em;
     list-style: none;
   }
   
-  li a {
+  li a{
     text-decoration: none;
     color: #777;
   }
   
-  .more-articles {
+  .more-articles{
     width: 90;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -88,31 +86,31 @@ body {
     border-bottom: transparent;
   }
   
-  .more-articles .row-1 {
+  .more-articles .row-1{
     grid-column-start: auto;
     grid-row-start: 1;
     grid-column: span 3;
   }
   
-  .more-articles .row-2 {
+  .more-articles .row-2{
     grid-column-start: auto;
     grid-row-start: 2;
     grid-column: span 2;
   }
   
-  .more-articles section {
+  .more-articles section{
     margin: auto;
   }
   
-  img {
+  img{
     width: 100%;
   }
   
-  p {
+  p{
     text-align: justify;
   }
   
-  footer {
+  footer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(5, 25px);
@@ -128,47 +126,47 @@ body {
     text-align: left;
   }
   
-  footer h4 {
+  footer h4{
     font-size: 1em;
     padding: 0;
     margin: 0;
   }
   
-  footer li {
+  footer li{
     font-size: 0.8em;
     inline-size: 110%;
   }
   
-  .news {
+  .news{
     grid-column: 1 / 2;
     grid-row: span 4;
     inline-size: 145%;
   }
   
-  .opinion {
+  .opinion{
     grid-column: 3 / 4;
     grid-row: span 4;
     inline-size: 145%;
   }
   
-  .arts {
+  .arts{
     grid-column: 5 / 6;
     grid-row: span 4;
     inline-size: 145%;
   }
   
-  .living {
+  .living{
     grid-column: 7 / 8;
     grid-row: span 4;
     inline-size: 110%;
   }
   
-  .more {
+  .more{
     grid-column: 9 / 10;
     grid-row: span 8;
     inline-size: 90%;
   }
-  .subscribe {
+  .subscribe{
     grid-column: 11 / 12;
     grid-row: span 5;
     border: 3px double #eee;
@@ -178,7 +176,7 @@ body {
     inline-size: 150%;
   }
   .footer-links,
-  .language {
+  .language{
     font-size: 0.9em;
     grid-column: 11 / 12;
     grid-row: 13;
@@ -192,5 +190,5 @@ body {
   }
 
   .footer-list ul,
-  .language ul {
+  .language ul{
   }
